@@ -94,4 +94,24 @@ public class Employee {
 		
 		return TaxFunction.calculateTax(monthlySalary, otherMonthlyIncome, monthWorkingInYear, annualDeductible, spouseIdNumber.equals(""), childIdNumbers.size());
 	}
+	
+    private static class Spouse {
+        private final String name;
+        private final String idNumber;
+
+        public Spouse(String name, String idNumber) {
+            this.name = name;
+            this.idNumber = idNumber;
+        }
+    }
+
+    private static class Child {
+        private final String name;
+        private final String idNumber;
+
+        public Child(String name, String idNumber) {
+            this.name = name;
+            this.idNumber = idNumber;
+        }
+    }
 }
