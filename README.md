@@ -1,2 +1,3 @@
 # 1302204036-UTS-MKPL
-1302204036, Boma Fira Suganda
+NIM : 1302204036
+Nama: Boma Fira Suganda
